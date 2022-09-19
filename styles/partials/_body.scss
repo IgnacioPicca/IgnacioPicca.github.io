@@ -9,3 +9,16 @@
     font-family: 'Reem Kufi Fun', sans-serif;
     font-size: 2.5em;
 }
+
+html {
+    scroll-behavior: smooth;
+    /*Comenta la línea (o dale el valor 'auto' a scroll behavior )
+       para probar la diferencia con y sin scroll suavizado*/
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+}
