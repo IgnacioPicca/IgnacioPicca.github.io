@@ -28,8 +28,24 @@
     padding: 2em 0;
 }
 
-#about-description {
+#about-container {
+    width: 100%;
+    padding: 2em 0 0;
+}
+
+.about-description {
     font-family: 'Reem Kufi Fun', sans-serif;
     padding: 2em 0;
     font-size: 2em;
+}
+
+#skills-list {
+    font-family: 'Reem Kufi Fun', sans-serif;
+    padding-left: 2em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(271deg, #a0e9ff 30%, #a162e8 50%, #f093b0 70%, #edca85 94%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
