@@ -20,24 +20,30 @@ header {
     padding: 2em 10em 2em;
 }
 
-#nav-item {
-    display: inline-block;
-    padding: 2em 3em;
-}
-
-#nav-item:hover {
+#brand:hover {
     color: rgb(255, 153, 0);
     cursor: pointer;
 }
 
-h1 {
+.nav-item {
+    display: inline-block;
+    padding: 2em 3em;
+}
+
+.nav-item:hover {
+    color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+#title {
     text-align: center;
     margin-top: 10%;
     font-size: 6.5em;
     font-family: 'Reem Kufi Fun', sans-serif;
+
 }
 
-h2 {
+#subtitle {
     text-align: center;
     font-size: 3em;
     font-family: 'Reem Kufi Fun', sans-serif;
