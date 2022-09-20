@@ -17,7 +17,7 @@
 }
 
 .contact-subtitle {
-    padding-top: 1.2em;
+    padding-top: 3em;
 }
 
 footer {
@@ -27,4 +27,20 @@ footer {
     justify-content: space-between;
     padding: 2em 3em;
     font-family: 'Montserrat', sans-serif;
+}
+
+#contact-list {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1em;
+}
+
+.contact-link:hover {
+    color: rgb(255, 153, 0);
+    cursor: pointer;
+}
+
+#mail:hover {
+    color: rgb(255, 153, 0);
+    cursor: pointer;
 }

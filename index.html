@@ -15,6 +15,8 @@
         rel="stylesheet">
     <!-- ICON -->
     <link rel="shortcut icon" href="./img/logo.png" type="image/png" />
+    <!-- FONT AWASOME -->
+    <script src="https://kit.fontawesome.com/a394d4411c.js" crossorigin="anonymous"></script>
     <title>iPicca.dev</title>
 </head>
 
@@ -24,12 +26,20 @@
 
         <section id="home">
             <header>
-                <p id="brand">iPicca.dev</p>
+                <a href="#">
+                    <p id="brand">iPicca.dev</p>
+                </a>
                 <nav>
                     <ul>
-                        <li class="nav-item">Projects</li>
-                        <li class="nav-item">About</li>
-                        <li class="nav-item">Contact</li>
+                        <a href="#projects">
+                            <li class="nav-item">Projects</li>
+                        </a>
+                        <a href="#about">
+                            <li class="nav-item">About</li>
+                        </a>
+                        <a href="#contact">
+                            <li class="nav-item">Contact</li>
+                        </a>
                     </ul>
                 </nav>
             </header>
@@ -38,37 +48,104 @@
             <h2 id="subtitle">Software Engineer & Front End Developer.</h2>
 
             <div id="btn-container">
-                <button class="glow-on-hover" type="button">Resume</button>
+                <a href="./cv/CV - EN.pdf" attributes-list download> <button class="glow-on-hover"
+                        type="button">Resume</button></a>
             </div>
         </section>
 
         <section id="projects">
             <p class="section-title">Projects</p>
-
             <div id="pj-container-b">
-                <div class="pj-container-s">
-                    <h3 class="p-title">Project Title</h3>
-                    <!-- IMG LINK PROJECT -->
-                    <a href=""><img src="" alt=""></a>
-                    <p class="pj-description">Project description</p>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="" src="./img/ipicca.dev.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Project title
+                            </div>
+                            <div class="card-subtitle">
+                                Card subtitle
+                            </div>
+                            <div class="card-sentence">
+                                Card sentence<br>
+                                You can write something...
+                            </div>
+                            <div class="card-buttons">
+                                <a class="card-button" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="pj-container-s">
-                    <h3 class="p-title">Project Title</h3>
-                    <!-- IMG LINK PROJECT -->
-                    <a href=""><img src="" alt=""></a>
-                    <p class="pj-description">Project description</p>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img class="" src="./img/ipicca.dev.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Project title
+                            </div>
+                            <div class="card-subtitle">
+                                Card subtitle
+                            </div>
+                            <div class="card-sentence">
+                                Card sentence<br>
+                                You can write something...
+                            </div>
+                            <div class="card-buttons">
+                                <a class="card-button" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="pj-container-s">
-                    <h3 class="p-title">Project Title</h3>
-                    <!-- IMG LINK PROJECT -->
-                    <a href=""> <img src="" alt=""></a>
-                    <p class="pj-description">Project description</p>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img class="" src="./img/ipicca.dev.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="card-title">
+                                TRES4VEINTE
+                            </div>
+                            <div class="card-subtitle">
+                                Responsive web development
+                            </div>
+                            <div class="card-sentence">
+                                Some technologies that i used<br>
+                                technologies icons
+                            </div>
+                            <div class="card-buttons">
+                                <a class="card-button" href="#">GITHUB</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="pj-container-s">
-                    <h3 class="p-title">Project Title</h3>
-                    <!-- IMG LINK PROJECT -->
-                    <a href=""> <img src="" alt=""></a>
-                    <p class="pj-description">Project description</p>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img class="" src="./img/ipicca.dev.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <div class="card-text">
+                            <div class="card-title">
+                                Project title
+                            </div>
+                            <div class="card-subtitle">
+                                Card subtitle
+                            </div>
+                            <div class="card-sentence">
+                                Card sentence<br>
+                                You can write something...
+                            </div>
+                            <div class="card-buttons">
+                                <a class="card-button" href="#">See more</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -106,21 +183,31 @@
 
             <footer>
                 <div>
-                    <!-- loguito de ubicación -->
                     <p>WHERE TO FIND ME?</p>
                     <p>Buenos Aires</p>
                     <p>Argentina</p>
                 </div>
                 <div>
-                    <!-- loguito de mail -->
                     <p>EMAIL ME AT</p>
-                    <p>iPicca.dev@gmail.com</p>
+                    <a href="mailto:iPicca.dev@gmail.com" id="mail">
+                        <br>
+                        <p>iPicca.dev@gmail.com</p>
+                    </a>
                 </div>
                 <div>
                     <p>CHAT ME HERE</p>
-                    <!-- Loguito de Linkedin -->
-                    <!-- Loguito de Instagram -->
-                    <!-- Loguito de Twitter -->
+                    <ul id="contact-list">
+                        <li><a class="contact-link" href="https://www.linkedin.com/in/ignacio-picca-9b5557156/"> <i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li> <a class="contact-link" href="https://www.instagram.com/nachopicca/">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a></li>
+                        <li><a class="contact-link" href="https://twitter.com/NachoPicca">
+                                <i class="fa-brands fa-twitter"></i>
+                            </a></li>
+                        <li><a class="contact-link" href="https://github.com/IgnacioPicca"><i
+                                    class="fa-brands fa-github"></i></a></li>
+                    </ul>
                 </div>
             </footer>
         </section>

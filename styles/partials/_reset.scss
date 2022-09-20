@@ -4,3 +4,16 @@
     box-sizing: border-box;
     list-style: none;
 }
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
