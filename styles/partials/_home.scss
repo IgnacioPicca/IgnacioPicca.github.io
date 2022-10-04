@@ -17,7 +17,7 @@ header {
 }
 
 #brand {
-    padding: 2em 10em 2em;
+    padding: 2em 4em 2em;
 }
 
 #brand:hover {
@@ -122,5 +122,20 @@ header {
 
     100% {
         background-position: 0 0;
+    }
+}
+
+
+@media (max-width: 601px) {
+    footer {
+        display: grid;
+        grid-template-areas:
+            "autor footer-menu";
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .footer-title {
+        display: none;
     }
 }
